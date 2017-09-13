@@ -12,7 +12,7 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/ivMovieImage"
+                android:id="@+id/ivMovieImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/tvReleasrDate"
@@ -20,7 +20,7 @@
             android:src="@mipmap/ic_launcher" />
 
         <TextView
-            android:id="@+id/tvReleasrDate"
+                android:id="@+id/tvReleasrDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -39,7 +39,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tvMovieName"
+                android:id="@+id/tvMovieName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ellipsize="end"
@@ -54,7 +54,7 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/ivRightArrow"
+                android:id="@+id/ivRightArrow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/tvMovieRating"
@@ -63,7 +63,7 @@
             android:src="@drawable/ic_arrow_right" />
 
         <TextView
-            android:id="@+id/tvMovieRating"
+                android:id="@+id/tvMovieRating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

@@ -25,10 +25,13 @@
         android:layout_below="@+id/tvUpcomingMovies"
         android:background="@android:color/black" />
 
-    <include layout="@layout/movie_item_view"
+
+    <ListView
+        android:id="@+id/itemListView"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/dividerLine"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dividerLine"
+        ></ListView>
 
 
 </RelativeLayout>
